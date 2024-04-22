@@ -1,0 +1,14 @@
+requiremnts.txt
+
+Local Installation: 
+Anaconda: https://docs.anaconda.com/free/anaconda/install/index.html
+python Version 3.10.x
+NumPy version: 1.25.2
+Scikit-Learn version: 1.2.2
+pandas version: 2.0.1
+
+Through conda terminal:
+conda create --name myenv python=3.10.12 scikit-learn=1.2.2 numpy=1.25.2
+conda activate myenv
+pip install streamlit 
+run streamlit path/to/folder
